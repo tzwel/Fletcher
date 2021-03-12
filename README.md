@@ -1,6 +1,6 @@
 # 🏹 Fletcher
 ### A simple and fast solution to fetching data with JavaScript
-Fletcher.js size - ~300 bytes unminified
+Fletcher.js size - ~350 bytes unminified
 
 ## Usage
 #### Basic Fletcher function
