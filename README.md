@@ -5,9 +5,9 @@
 #### Basic Fletcher function
 
 ```js
-Fletcher("data");
+Fletcher("example.api/data/");
 ```
 #### Assigning Fletcher to a variable:
 ```js
-const data = Fletcher("data");
+const data = Fletcher("example.api/data/");
 ```
