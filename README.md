@@ -2,6 +2,14 @@
 ### A simple and fast solution to fetching data with JavaScript
 Fletcher.js size - ~350 bytes unminified
 
+## Installation
+- Download Fletcher from [the source](https://github.com/tzwel/Fletcher/blob/main/src/Fletcher.js)
+- Load Fletcher in your project
+```html
+  <script src="path/Fletcher.js"></script>
+```
+
+
 ## Usage
 
 #### Check if Fletcher is working
