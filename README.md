@@ -3,9 +3,9 @@
 
 ## Usage
 ```
-  Fletcher("data");
+Fletcher("data");
 ```
 #### Assigning Fletcher to a variable:
 ```
-  const data = Fletcher("data");
+const data = Fletcher("data");
 ```
