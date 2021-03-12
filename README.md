@@ -8,7 +8,7 @@ Fletcher.js size - ~350 bytes unminified
 ```js
 Fletcher("test");
 ```
-Fletcher should log "Fletcher" in the browser's console if it's working.
+Fletcher should log "Fletcher" in the browser's console if it's active.
 
 #### Basic Fletcher function
 
