@@ -6,7 +6,7 @@ Fletcher.js size - ~350 bytes unminified
 - Download Fletcher from [the source](https://github.com/tzwel/Fletcher/blob/main/src/Fletcher.js)
 - Load Fletcher in your project
 ```html
-  <script src="path/Fletcher.js"></script>
+<script src="path/Fletcher.js"></script>
 ```
 
 
