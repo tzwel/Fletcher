@@ -5,7 +5,7 @@
 ```
   Fletcher("data");
 ```
-### Assigning Fletcher to a variable:
+#### Assigning Fletcher to a variable:
 ```
   const data = Fletcher("data");
 ```
