@@ -10,7 +10,7 @@ async function Fletcher(argument) {
 
   try {
       FletcherResponse = await fetch(argument);
-      FletcherResponse = await FletcherResponse.json();
+      FletcherResponse.json();
   } catch (error) {
       console.error(`Fletcher error: ${error}`);
   } finally {
