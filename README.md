@@ -18,12 +18,27 @@ Fletcher("test");
 ```
 Fletcher should log "Fletcher" in the browser's console if it's active.
 
-#### Basic Fletcher function
+#### Basic Fletcher function to get `json` data, and `blob` in the second snippet:
 
 ```js
-await Fletcher("example.api/data/");
+Fletcher("example.api/data/", "json");
 ```
+```js
+Fletcher("example.api/data/", "blob");
+```
+
+#### Getting the status code:
+```js
+//getting the status code
+Fletcher("example.api/data/", "status");
+```
+
+#### Logging the output (using the log parameter):
+```js
+Fletcher("example.api/data/", "status", "log");
+```
+
 #### Assigning Fletcher to a variable:
 ```js
-const data = await Fletcher("example.api/data/");
+const data = Fletcher("example.api/data/");
 ```

@@ -1,6 +1,6 @@
 'use strict';
 
-async function Fletcher(argument) {
+async function Fletcher(argument, get, log) {
 
   if (argument === "test") {
     return console.log("Fletcher");
@@ -10,11 +10,25 @@ async function Fletcher(argument) {
 
   try {
       FletcherResponse = await fetch(argument);
-      FletcherResponse.json();
+
+      if (get === "json") {
+        FletcherResponse = await FletcherResponse.json();
+      } else if (get === "blob") {
+        FletcherResponse = await FletcherResponse.blob();
+      } else if (get === "status") {
+        FletcherResponse = FletcherResponse.status;
+      }
+
   } catch (error) {
       console.error(`Fletcher error: ${error}`);
   } finally {
+
+    if (log === "log") {
+      return console.log(FletcherResponse);
+    } else {
       return FletcherResponse;
+    }
+
   }
 
 }
