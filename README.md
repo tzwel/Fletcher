@@ -29,7 +29,6 @@ Fletcher("example.api/data/", "blob");
 
 #### Getting the status code:
 ```js
-//getting the status code
 Fletcher("example.api/data/", "status");
 ```
 
