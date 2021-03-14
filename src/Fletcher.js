@@ -3,7 +3,7 @@
 async function Fletcher(argument, get, log) {
 
   if (argument === "test") {
-    return console.log("Fletcher");
+    return console.log("🏹 Fletcher");
   }
 
   let FletcherResponse;
